@@ -24,12 +24,14 @@ class PaymentViewController: UIViewController, RazorpayPaymentCompletionProtocol
     override open func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
-        razorpay = Razorpay.initWithKey("rzp_test_Ftam6ohwsQGTJi", andDelegate: self)
+        razorpay = Razorpay.initWithKey("rzp_test_oecEV6BUobeTZD", andDelegate: self)
+        DispatchQueue.main.asyncAfter(wallDeadline: .now()) {
+            self.showPaymentForm()
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        showPaymentForm()
     }
     
     func showPaymentForm() {
