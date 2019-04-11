@@ -15,10 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        window = UIWindow.init(frame: UIScreen.main.bounds)
-        window?.rootViewController = PaymentViewController(amount: 100, userEmail: "abc@gmail.com")
-        window?.makeKeyAndVisible()
         return true
     }
 

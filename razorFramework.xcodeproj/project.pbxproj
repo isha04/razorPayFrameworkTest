@@ -13,6 +13,8 @@
 		4EC928BB225E27C500469826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC928B9225E27C500469826 /* LaunchScreen.storyboard */; };
 		4EC928C4225E284700469826 /* Razorpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC928C2225E283800469826 /* Razorpay.framework */; };
 		4EC928C5225E284700469826 /* Razorpay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC928C2225E283800469826 /* Razorpay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A00AA5E2225F215000862E4E /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00AA5E1225F215000862E4E /* PaymentHandler.swift */; };
+		A00AA5E4225F263900862E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00AA5E3225F263900862E4E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,8 @@
 		4EC928BA225E27C500469826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EC928BC225E27C500469826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EC928C2225E283800469826 /* Razorpay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Razorpay.framework; sourceTree = "<group>"; };
+		A00AA5E1225F215000862E4E /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		A00AA5E3225F263900862E4E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +76,12 @@
 			children = (
 				4EC928B0225E27C400469826 /* AppDelegate.swift */,
 				4EC928B2225E27C400469826 /* PaymentViewController.swift */,
+				A00AA5E1225F215000862E4E /* PaymentHandler.swift */,
 				4EC928C2225E283800469826 /* Razorpay.framework */,
 				4EC928B7225E27C500469826 /* Assets.xcassets */,
 				4EC928B9225E27C500469826 /* LaunchScreen.storyboard */,
 				4EC928BC225E27C500469826 /* Info.plist */,
+				A00AA5E3225F263900862E4E /* Main.storyboard */,
 			);
 			path = razorFramework;
 			sourceTree = "<group>";
@@ -141,6 +147,7 @@
 			files = (
 				4EC928BB225E27C500469826 /* LaunchScreen.storyboard in Resources */,
 				4EC928B8225E27C500469826 /* Assets.xcassets in Resources */,
+				A00AA5E4225F263900862E4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EC928B3225E27C400469826 /* PaymentViewController.swift in Sources */,
+				A00AA5E2225F215000862E4E /* PaymentHandler.swift in Sources */,
 				4EC928B1225E27C400469826 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
